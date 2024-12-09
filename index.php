@@ -18,7 +18,6 @@ if (isPath("avis")) {
         require_once __DIR__ . "/routes/avis/post.php";
         die();
     }
-
 }
 
 if (isPath("avis/biens/:bien")) {
